@@ -10,4 +10,4 @@ seek_bunzip_SOURCES = seek-bunzip.c micro-bunzip.c micro-bunzip.h
 
 BUILT_SOURCES = bzip-table.c seek-bunzip.c micro-bunzip.c micro-bunzip.h
 
-CLEANFILES = $(BUILT_SOURCES)
+CLEANFILES = $(bin_PROGRAMS)
