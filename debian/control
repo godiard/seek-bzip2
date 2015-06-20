@@ -2,18 +2,15 @@ Source: seek-bzip2
 Section: devel
 Priority: optional
 Maintainer: Gonzalo Odiard <godiard@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 Homepage: https://github.com/godiard/seek-bzip2
 #Vcs-Git: git://git.debian.org/collab-maint/seek-bzip2.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/seek-bzip2.git;a=summary
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, devscripts, linux-libc-dev,
+ automake, mawk, mime-support
 
 Package: seek-bzip2
 Architecture: any
-
-Build-Depends: autotools-dev, devscripts, linux-libc-dev,
- automake, mawk, mime-support
-
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A library to compress and uncommpress big files by parts
  With bzip-table, you can create a big bz2 file and a table with
