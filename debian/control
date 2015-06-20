@@ -20,8 +20,3 @@ Description: A library to compress and uncommpress big files by parts
  information about where is ocated every file. Then you can use
  that table with seek-bunzip to uncompress the needed file without
  uncompress all the big file.
-
-Package: seek-bzip2-doc
-Architecture: all
-Description: documentation for seek-bzip2
- <insert long description, indented with spaces>
