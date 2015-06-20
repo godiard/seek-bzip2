@@ -11,7 +11,9 @@ Homepage: https://github.com/godiard/seek-bzip2
 Package: seek-bzip2
 Architecture: any
 
-Build-Depends: autotools-dev, devscripts, linux-libc-dev
+Build-Depends: autotools-dev, devscripts, linux-libc-dev,
+ automake, mawk, mime-support
+
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A library to compress and uncommpress big files by parts
  With bzip-table, you can create a big bz2 file and a table with
