@@ -1,0 +1,5 @@
+seek-bzip2 (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Gonzalo Odiard <godiard@gmail.com>  Thu, 18 Jun 2015 20:02:10 -0300

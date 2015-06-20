@@ -1,0 +1,20 @@
+Source: seek-bzip2
+Section: unknown
+Priority: optional
+Maintainer: Gonzalo Odiard <godiard@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/seek-bzip2.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/seek-bzip2.git;a=summary
+
+Package: seek-bzip2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: seek-bzip2-doc
+Architecture: all
+Description: documentation for seek-bzip2
+ <insert long description, indented with spaces>
